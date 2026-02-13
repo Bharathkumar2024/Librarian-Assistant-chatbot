@@ -9,7 +9,7 @@ import { toast } from "sonner";
 const WELCOME_SUGGESTIONS = [
   "What can you help me with?",
   "Tell me a fun tech fact",
-  "Write a short story about AI",
+  "Write a short story",
   "Help me brainstorm ideas",
 ];
 
@@ -73,10 +73,10 @@ const LiberinChat = () => {
             </div>
             <div>
               <h1 className="font-display text-lg font-bold tracking-wider text-primary neon-glow">
-                LIBERIN
+                THE HUMAN MADE
               </h1>
               <p className="text-[10px] font-mono-game text-muted-foreground tracking-widest uppercase">
-                AI Assistant • Online
+                Assistant • Online
               </p>
             </div>
           </div>
@@ -102,10 +102,10 @@ const LiberinChat = () => {
               </div>
               <div className="text-center">
                 <h2 className="font-display text-2xl sm:text-3xl font-bold tracking-wider text-primary neon-glow mb-2">
-                  LIBERIN AI
+                  THE HUMAN MADE
                 </h2>
                 <p className="text-muted-foreground font-body text-base sm:text-lg max-w-md">
-                  Your futuristic AI companion. Ask me anything, Commander.
+                  I am Liberin Assistant. What do you want?
                 </p>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 w-full max-w-lg mt-2">
@@ -137,7 +137,7 @@ const LiberinChat = () => {
         <div className="max-w-4xl mx-auto">
           <ChatInput onSend={send} disabled={isLoading} />
           <p className="text-center text-[10px] font-mono-game text-muted-foreground mt-2 tracking-wider">
-            LIBERIN AI v1.0 • POWERED BY ADVANCED NEURAL NETWORKS
+            THE HUMAN MADE v1.0 • POWERED BY HUMAN INGENUITY
           </p>
         </div>
       </footer>

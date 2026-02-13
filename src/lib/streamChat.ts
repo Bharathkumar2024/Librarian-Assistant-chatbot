@@ -31,7 +31,7 @@ export async function streamChat({
       onError?.("Credits depleted. Please add funds.");
       return;
     }
-    onError?.("Failed to connect to Liberin AI.");
+    onError?.("Failed to connect to Liberin.");
     return;
   }
 
